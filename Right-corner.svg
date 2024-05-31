@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="656.6 0 243.4 243.4">
+	<title>blob-scene-haikei (1)-svg</title>
+	<style>
+		.s0 { fill: #6fd4c8 } 
+		.s1 { fill: #90e2d9 } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m900 243.4c-46.2-4.3-92.4-8.6-121.7-32.6-29.3-24.1-41.8-67.9-59.3-106.3-17.5-38.4-39.9-71.5-62.4-104.5h243.4z"/>
+		<path id="Layer" class="s1" d="m900 121.7c-23.1-2.2-46.2-4.3-60.8-16.3-14.7-12-21-33.9-29.7-53.1-8.7-19.3-20-35.8-31.2-52.3h121.7z"/>
+	</g>
+</svg>
