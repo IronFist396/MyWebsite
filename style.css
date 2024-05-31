@@ -12,6 +12,9 @@
     font-family: 'NewCenturyRoman';
     src: url("../fonts/NewCenturySchoolBook/newcenturyschlbk-roman.otf");
 }
+.collapse{
+    padding-bottom: 3%;
+}
 
 #top-div h1{
     font-size: 7rem;
@@ -29,7 +32,7 @@ span{
     width:auto;
 }
 .container{
-    padding: 1% 7%;
+    padding: 0% 7%;
 }
 .title-text{
     position: relative;
@@ -103,9 +106,54 @@ span{
     margin-bottom: 7%;
     text-align: center;
 }
-#about-me p{
-    
+#about-me .col-lg-4 p{
     font-family: 'NewCenturyRoman';
-    font-size: 30px;
-    line-height: 0.9;
+    font-size: 24px;
+    line-height: 0.6;
+    font-weight: bold;
+}
+
+#about-me .col-lg-8 p{
+    font-family: 'NewCenturyRoman';
+    font-size: 28px;
+    max-width: 700px;
+    text-align: left;
+}
+
+#about-me h2{
+    font-family: 'AvenirNextBold';
+    color: #27363B;
+    font-size: 2rem;   
+}
+#about-me ul{
+    font-family: 'NewCenturyRoman';
+    font-size: 20px;
+    text-align: left;
+}
+.flex-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact Me */
+#contact-me{
+    padding: 7% 5%;
+    padding-bottom: 4%;
+    background-color: #27363B;
+    color:white;
+    text-align: center;
+}
+
+#contact-me .bi{
+    color:white;
+    margin: 3%;
+}
+#contact-me .bi:hover{
+    color: #2b7a78;
+}
+footer{
+    margin-top: 5%;
+    font-family: 'NewCenturyRoman';
+    font-size: 23px;
 }
