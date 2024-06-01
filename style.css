@@ -186,13 +186,4 @@ footer{
         padding: 0 !important;
         margin: 0 !important;
     }
-    #top-div .container > {
-        padding: 0 !important;
-    }
-    #top-div ul{
-        margin: 0 !important;
-    }
-    #top-div{
-        position: static !important;
-    }
 }
