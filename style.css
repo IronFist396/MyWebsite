@@ -12,9 +12,6 @@
     font-family: 'NewCenturyRoman';
     src: url("../fonts/NewCenturySchoolBook/newcenturyschlbk-roman.otf");
 }
-.collapse{
-    padding-bottom: 3%;
-}
 
 #top-div h1{
     font-size: 7rem;
@@ -156,4 +153,46 @@ footer{
     margin-top: 5%;
     font-family: 'NewCenturyRoman';
     font-size: 23px;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px){
+    #top-div{
+        text-align: center;
+    }
+    .title-text{
+        position: static;
+    }
+    .avatar-img{
+        width: 80%;
+    }
+
+    #hobbies .col-lg-4{
+        margin: 4% 0%;
+    }
+
+    #hobbies .row{
+        justify-content: center;
+    }
+    
+    .col-lg-8 p{
+        text-align: center !important;
+        padding: 2%;
+        font-size: 24px;
+        max-width: auto;
+    }
+    .navbar-wxpand-lg{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    #top-div .container > {
+        padding: 0 !important;
+    }
+    #top-div ul{
+        margin: 0 !important;
+    }
+    #top-div{
+        position: static !important;
+    }
 }
